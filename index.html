@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cfe5f269;
+}
+ 
+nav {
+    background-color: #063a59;
+}
+.container {
+    max-width: 88vw;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.topleft {
+    width: 50%;
+}
+
+.topright {
+    width: 50%;
+    padding: 12px;
+}
+
+.section1 {
+    min-height: 100vh;
+
+}
+
+.section1 h1 {
+    font-size: 2rem;
+    padding-bottom: 3pc;
+}
+
+.section1 p {
+    line-height: 30px;
+}
+
+.logo {
+    font-size: 1.4rem;
+}
+
+.internimg {
+    width: 250px;
+    padding: 30px;
+}
+t
+.topright .cognifyzimg {
+    width: 700px;
+}
+
+.section2 {
+padding-left: 63px ;
+padding-right: 63px;
+}
+
+.section2 h1 {
+font-size: 2rem;
+}
+
+.section2 p {
+    font-size: 1.2rem;
+}
+
+.box {
+    width: 50%;
+    margin: 12px 22px;
+    border: 8px outset #0c4e75bf;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: rgba(25, 125, 174, 0.78);
+    line-height: 25px;
+}
+
+/* .ul-style {
+    list-style: none;
+} */
+
+.ul-style li {
+    padding: 15px;
+}
+
+.footer {
+    background-color: #063a59;
+    margin-top: 150px;
+}
+.contact {
+    padding: 20px;
+    color: white;
+}
+
+.contact h2 {
+    padding: 15px;
+}
+
+.contact p {
+    cursor: pointer;
+}
+
+.contact a {
+    color: aliceblue;
+}
+
+.copyright {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: aliceblue;
+}
+
+.icon {
+    width: 20px;
+    padding-right: 10px;
+}
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.font-bold {
+    font-weight: bolder;
+}
+
+.my-1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my-2 {
+    margin-top: 130px;
+    margin-bottom: 26px;
+}
+
+.px-2 {
+    padding-left: 26px;
+    margin-right: 26px;
+}
+
+.text-blue {
+    color: #c3e9ff;
+}
+
+.btn {
+    padding: 7px 12px;
+    border: 2px solid rgb(255, 253, 253);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #38b6ff;
+
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+    </style>
+
+</head>
+<body class="overflow-hidden">
+    <div class="container mx-auto ">
+        <header>
+            <nav class="flex justify-between">
+                <div class=" logo flex font-bold
+                items-center text-blue">Octanet Internship</div>
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Apply Now</button></li>
+
+
+                </ul>
+            </nav>
+            <hr>
+
+        </header>
+        <main class="min-h-screen ">
+            <section class="section1 flex">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class="text-center">
+                            <img class="internimg" src="cropped-site.png" alt="internship">
+                        </div>
+                        <h1 class=".my-1 text-center">Web Developer Internship
+                            </h1>
+
+                        <p class="text-center">We Develop Personalized Software At OctaNet. We Are Committed
+                             To Producing Exceptional Software For Each Of Our Clients.
+                            Also we helps the needy student by giving internship into their related fields and
+                             domain. This internship will embrace orientation and give emphasis on learning 
+                             new skills with a deeper understanding of concepts through hands-on application 
+                             of the knowledge student gained as an intern. This is going to be a great 
+                             opportunity for the students to enhance their skills and develop themself and 
+                             make job ready for the future.
+                         </p>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="octaimg" src="web.webp" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2 ">Highlights</h1>
+                <p>Benefits of the internship:</p>
+                <div class="boxes flex text-center">
+                    <div class="box">This internship provide a hands-on learning experience, allowing interns
+
+                        to apply the knowledge they've gained in the classroom to real-world projects. This
+                        practical experience is invaluable for developing technical skills and problem-solving
+                        abilities.</div>
+                    <div class="box">Interns have the opportunity to sharpen their web development skills,
+
+                        including programming languages, web frameworks, and development tools. They can gain
+                        proficiency in front-end and back-end development, database management, and web design.</div>
+                    <div class="box">Interns can gain insights into the latest trends and emerging technologies
+
+                        in web development, helping them stay updated and competitive in the industry.</div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h1 class="text-center my-2">Qualifications</h1>
+                <ul class="ul-style">
+                    <li>Basic understanding of web development is essential. You should be familiar with HTML, CSS, and
+                        possibly JavaScript</li>
+                    <li>Recently graduated or pursuing btech in CS or relevant coursework.</li>
+                    <li>Willingness to adapt to the organization's needs. Flexibility and a willingness to take on
+                        different tasks can be valuable.</li>
+                    <li>Since this is an unpaid internship, it requires more flexibility in terms of hours, make sure
+                        you can commit the necessary time to the internship.</li>
+                </ul>
+            </section>
+            <hr>
+        </main>
+        <footer class="text-center footer">
+
+            <div class="contact">
+                <h2 class="flex">Contact Us</h2>
+                <div class="gmail flex">
+                    <img class="icon" src="Gmail.png" alt="">
+                    <a href="#" class="social">Support@octanet.in</a>
+
+                </div>
+                <br>
+                <div class="flex">
+                    <img class="icon" src="linkedin.webp" alt="">
+                    <a href="#">OctaNet Services Pvt Ltd.</a>
+                </div>
+                <br>
+                <div class="flex">
+                    <img class="icon" src="insta.png" alt="">
+                    <a href="#">OctaNet Group</a>
+                </div>
+
+            </div>
+            <div class="copyright"> Copyright © 2023 OctaNet Services Pvt Ltd.</div>
+
+        </footer>
+    </div>
+</body>
+</html>
